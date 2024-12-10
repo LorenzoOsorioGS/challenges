@@ -36,6 +36,7 @@ main{
     display: block;
     border-radius: 10px;
     margin-top: 30px;
+    font-family: var(--fonte-paragrafo);
 }
 
 img{
@@ -49,14 +50,47 @@ img{
     border-radius: 45px;
 }
 
-h1{
+.lel{
+    color: #9c5271;
+}
+
+main h1{
     font-family: var(--fonte-titulo);
     font-weight: 400;
     padding: 20px;
     font-size: 47px;
+    text-align: center;
 }
 
 main p{
-    font-family: var(--fonte-paragrafo);
     padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-size: 23px;
 }
+
+
+section{
+    background-color: #FFF7FC;
+    border-radius: 10px;
+    padding: 10px 40px 5px;
+    max-width: 785px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+section h3{
+    text-indent: 10px;
+    padding-bottom: 30px;
+    color: #9c5271;
+    font-size: 21px;
+}
+
+section li{
+}
+
+main h2{
+    font-family: var(--fonte-paragrafo);
+    padding: 20px;
+}
+
